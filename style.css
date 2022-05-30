@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ############ utility class ########## */
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+ }
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/10328922/pexels-photo-10328922.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+.lg-heading{
+    float: left;
+    color: white;
+     margin: 2rem; 
+}
+
+.nav-items{
+    float: right;
+    list-style: none;
+    color: white;
+}
+
+.navbar{
+    padding: 1rem;
+}
+
+.navbar .nav-item{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem;
+}
+
+ .navbar::after{
+    content: '';
+    clear: both;
+    display: block;
+} 
+
+.main-heading{
+    color: white;
+    letter-spacing: 0.21rem;
+    margin: 2rem;
+    width: 500px;
+}
+
+.paragragh{
+    color: lightgray;
+    margin: 2rem;
+}
+
+.btn{
+ display: inline-block; 
+     text-decoration: none;
+    color: white
+}
+
+.btn-primary{
+    background-color: orangered;
+    padding: 0.7em 2em;
+    border-radius: 0.3rem;
+    margin: 2rem;
+}
+
+.btn-secondary{
+    border: 2px solid white;
+    padding: 0.6em 2em;
+}
+
+.btn-primary:hover{
+    background-color: gray;
+}
+
+.btn-secondary:hover{
+    background-color:blue;
+}
